@@ -59,7 +59,7 @@ def main(argv):
     simulationTime = float(cmd.simulationTime)
     distance = float(cmd.distance)
 
-    print "MCS value" , "\t\t", "Channel width", "\t\t", "short GI","\t\t","Throughput" ,'\n'
+    print("MCS value" , "\t\t", "Channel width", "\t\t", "short GI","\t\t","Throughput" ,'\n')
     for i in range(0, 10): # MCS
         j = 20
         while j <= 160: # channel width
@@ -188,7 +188,7 @@ def main(argv):
                     totalPacketsThrough = sinkApp.Get (0).GetTotalRx ()
                     throughput = totalPacketsThrough * 8 / (simulationTime * 1000000.0)  # Mbit/s
 
-                print i , "\t\t\t" , j , "MHz\t\t\t" , k , "\t\t\t" , throughput , " Mbit/s"
+                print(i , "\t\t\t" , j , "MHz\t\t\t" , k , "\t\t\t" , throughput , " Mbit/s")
 
             j *= 2
     return 0
