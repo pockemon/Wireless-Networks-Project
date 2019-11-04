@@ -1,5 +1,11 @@
 # Wireless-Networks-Project
-To convert python2 scripts into python3 scripts
+To Test Python equivalent for the following programs
+* ``` csma-ping ```
+* ``` udp-client-server ```
+* ``` simple-global-routing ```
+* ``` icmpv6-redirect ```
+* ``` wsn-ping6 ```
+* ``` radvd ```
 
 ## Members
  1. Hardik Rana - 16CO138
